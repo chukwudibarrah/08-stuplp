@@ -1,0 +1,43 @@
+
+.flex-container {
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Set alignment of nav menu */
+.navitems a {
+    float: right;
+    display: block;
+    text-align: center;
+    padding: 20px 24px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.navitems a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+/* Add color to active tab/link */
+.navitems a.active {
+    color: red;
+}
+/*
+img {
+    max-width: 100%;
+    height: auto;
+    padding-left: 0px;
+    margin-left: 0px;
+    border-left: 0px;
+  }
+
+figcaption {
+    font-style: italic;
+    padding: 2px;
+    text-align: right;
+}
