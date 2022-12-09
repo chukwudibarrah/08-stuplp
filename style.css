@@ -27,13 +27,11 @@
 .navitems a.active {
     color: red;
 }
-/*
+
 img {
-    max-width: 100%;
-    height: auto;
-    padding-left: 0px;
-    margin-left: 0px;
-    border-left: 0px;
+    position: relative;
+    left: 0px;
+    padding: 0px;
   }
 
 figcaption {
@@ -41,3 +39,36 @@ figcaption {
     padding: 2px;
     text-align: right;
 }
+input {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+input:focus {
+    border: 3px solid #555;
+}
+.textarea {
+    width: 50%;
+    height: 100px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 4px;
+    resize: none;
+}
+.submit {
+    transition-duration: 0.4s;
+    width: 10%;
+  }
+  
+  .submit:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
+  
+.bigspace {
+    padding-bottom: 100px;
+  }
