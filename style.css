@@ -1,6 +1,32 @@
+h1 {
+    font-size: 48px;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    width: 100%;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.aboutme {
+    background-color: beige;
+    padding: 50px;
+    margin-bottom: -50px;
+    padding-top: 150px;
+}
+    
 
 .flex-container {
-    height: 600px;
+    height: 400px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -12,9 +38,10 @@
     float: right;
     display: block;
     text-align: center;
-    padding: 20px 24px;
+    padding: 20px 10px;
     font-size: 18px;
     text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 /* Change color on hover */
@@ -28,16 +55,39 @@
     color: red;
 }
 
-img {
-    position: relative;
-    left: 0px;
-    padding: 0px;
+  
+.responsive {
+    max-width: 80%;
+    height: auto;
+    padding: 0%;
+    margin: 0px;
+    margin-bottom: -170px;
   }
 
 figcaption {
     font-style: italic;
     padding: 2px;
     text-align: right;
+    font-size: 10px;
+}
+
+.row {
+    display: flex;
+    padding: 50px;
+    background-color: beige;
+    position: inherit;
+    border-right-width: 50px;
+    border-right-color: beige;
+}
+  
+.column {
+    flex: 48%;
+}
+
+form {
+    position: relative;
+    left: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 input {
     width: 50%;
@@ -45,7 +95,7 @@ input {
     margin: 10px 0;
     box-sizing: border-box;
     border: 2px solid red;
-    border-radius: 10px;
+    border-radius: 4px;
 }
 input:focus {
     border: 3px solid #555;
@@ -65,10 +115,16 @@ input:focus {
   }
   
   .submit:hover {
-    background-color: #4CAF50; /* Green */
+    background-color: red; /* Red */
     color: white;
   }
-  
+
 .bigspace {
     padding-bottom: 100px;
+  }
+
+  footer {
+    text-align: center;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
   }

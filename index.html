@@ -1,33 +1,53 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Mini Project Landing Page</title>
+    <title>Mini Project</title>
     <link href="style.css" type="text/css" rel="stylesheet">
 </head>
 
 <header>
     <nav class="navitems">
-        <a href="contact">CONTACT</a>
-        <a href="#about">ABOUT</a>
-        <a class="active" href="home">HOME</a>  
+        <a href="#contactme">CONTACT</a>
+        <a href="#aboutme">ABOUT</a>
+        <a class="active" href="#home">HOME</a>  
     </nav>
 
-    <div class="flex-container">
-        <div><h1>STUDENT MINI PROJECT</h1></div>
-    </div>
+    <h1 class="flex-container" id="home">
+        CHUKWUDI'S MINI<br>WEBSITE PROJECT
+    </h1>
+    <p class="bigspace">
+
+    </p>
 </header>
 
-<body>
-    <div>
-    <figure>
-        <img src="https://iili.io/HnVS3VS.png" alt="Web developer working on a laptop" style="width: 100%;height:auto">
+<main>
+    <img src="https://iili.io/HnVS3VS.png" alt="Web developer working on a laptop" class="responsive">
         <figcaption><em>Photo by Christina Morillo on Pexels</em></figcaption>
-      </figure>
-      </div>
-    <div class="contactme">
-        <h2>CONTACT ME</h2>
-    </div>
-    <form>
+</img>
+
+      <p class="bigspace">
+
+      </p>
+      <h2 class="aboutme" id="aboutme">
+        ABOUT ME
+    </h2>
+
+    <section class="row">
+        <p class="column">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum maximus, elit non tincidunt rhoncus, libero nulla sollicitudin nulla, non convallis magna massa interdum massa. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer sit amet vehicula elit. Sed dignissim lacinia nibh sit amet varius. Curabitur est eros, dapibus in tristique eget, porttitor sed ipsum. Cras aliquet elit vel elit placerat sagittis non id massa. Quisque venenatis ex sit amet magna varius dapibus. Phasellus diam ex, fringilla a risus ac, semper laoreet justo. Curabitur suscipit enim eget imperdiet imperdiet. Pellentesque aliquet massa urna, non ultrices enim efficitur nec. Duis aliquam lacus lectus, aliquam tempus elit ultricies eget. Aliquam erat volutpat.
+        </p>
+        <p class="column">
+            Nam enim risus, imperdiet et augue sit amet, tempus blandit sapien. Quisque sagittis, nisi a elementum porta, purus quam cursus urna, nec efficitur quam elit quis turpis. Nam vehicula, ligula eu efficitur gravida, nibh elit facilisis diam, non viverra ante nibh et risus. Vestibulum id ex neque. Suspendisse luctus, nunc iaculis ullamcorper fermentum, eros lacus aliquam libero, vel porta tortor tortor at dolor. Aenean scelerisque est id finibus fermentum. Etiam in orci ullamcorper, pretium ligula sit amet, fermentum eros. Vestibulum sagittis, orci vitae laoreet pretium, neque orci ultricies nulla, vel suscipit diam neque sed est. Proin laoreet semper suscipit. Sed venenatis congue magna, eget ornare nulla sagittis sed. In id dui ligula.
+        </p>
+    </section>
+
+    <p class="bigspace">
+
+    </p>
+    
+    <form id="contactme">
+        <h2 class="contactme">CONTACT ME</h2>
+        <br>
         <label for="name">Name</label><br>
         <input type="text" id="name"><br>
         <label for="email">Email</label><br>
@@ -39,7 +59,7 @@
     <p class="bigspace">
 
     </p>
-</body> 
+</main> 
 
 <footer>
     Copyright © 2022. Chukwudi Barrah. All rights reserved.
